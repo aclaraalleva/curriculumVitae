@@ -107,19 +107,23 @@ header {
 
 .trabajosDestacados { 
 	overflow: hidden;
+	padding: 0 50px;
+	border:1px solid red;
  }
 
  .caja1 {
- 	width: 24%;
- 	height: 200px;
+ 	width: 300px;
+ 	height: 300px;
+ 	background-image: url(trabajo1.jpg);
+ 	background-repeat: no-repeat;
  	float: left;
- 	background-color: grey;
  	margin-right: 1%;
  	margin-bottom: 1%;
+ 	opacity:0.5;
  }
 
  .caja1:hover {
- 	background-color: LightGrey;
+ 	opacity:1;
  }
 
  .contact {
