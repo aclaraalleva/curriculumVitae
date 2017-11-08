@@ -18,8 +18,12 @@ body {
 	margin:0 auto;
 }
 
-header {
-	height: 500px;
+.sobremi {
+	background-image: url(../img/computadora.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
 }
 
 .presentacion {
@@ -28,6 +32,12 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 500px;
+}
+
+.texto {
+	height: 170px;
+	text-align: center;
 }
 
 li {
